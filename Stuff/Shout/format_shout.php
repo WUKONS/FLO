@@ -72,4 +72,62 @@ function format_shout($text, $strip_html = true) {
     return $s;
 }
 
+/* 	private $Smileys = array(
+		':angry:'			=> 'angry.gif',
+		':-D'				=> 'biggrin.gif',
+		':D'				=> 'biggrin.gif',
+		':|'				=> 'blank.gif',
+		':-|'				=> 'blank.gif',
+		':blush:'			=> 'blush.gif',
+		':cool:'			=> 'cool.gif',
+		':&#39;('				=> 'crying.gif',
+		':crying:'				=> 'crying.gif',
+		'&gt;.&gt;'			=> 'eyesright.gif',
+		':frown:'			=> 'frown.gif',
+		'&lt;3'				=> 'heart.gif',
+		':unsure:'			=> 'hmm.gif',
+		':\\'			=> 'hmm.gif',
+		':whatlove:'		=> 'ilu.gif',
+		':lol:'				=> 'laughing.gif',
+		':loveflac:'		=> 'loveflac.gif',
+		':ninja:'			=> 'ninja.gif',
+		':no:'				=> 'no.gif',
+		':nod:'				=> 'nod.gif',
+		':ohno:'			=> 'ohnoes.gif',
+		':ohnoes:'			=> 'ohnoes.gif',
+		':omg:'				=> 'omg.gif',
+		':o'				=> 'ohshit.gif',
+		':O'				=> 'ohshit.gif',
+		':paddle:'			=> 'paddle.gif',
+		':('				=> 'sad.gif',
+		':-('				=> 'sad.gif',
+		':shifty:'			=> 'shifty.gif',
+		':sick:'			=> 'sick.gif',
+		':)'				=> 'smile.gif',
+		':-)'				=> 'smile.gif',
+		':sorry:'			=> 'sorry.gif',
+		':bow:'		    	=> 'bow.gif',
+		':thanks:'			=> 'thanks.gif',
+		':P'				=> 'tongue.gif',
+		':-P'				=> 'tongue.gif',
+		':-p'				=> 'tongue.gif',
+		':wave:'			=> 'wave.gif',
+		';-)'				=> 'wink.gif',
+		':wink:'			=> 'wink.gif',
+		':creepy:'			=> 'creepy.gif',
+		':worried:'			=> 'worried.gif',
+		':wtf:'				=> 'wtf.gif',
+		':wub:'				=> 'wub.gif',
+	);
+	
+	private $NoImg = 0; // If images should be turned into URLs
+	private $Levels = 0; // If images should be turned into URLs
+	
+	function __construct() {
+		foreach($this->Smileys as $Key=>$Val) {
+			$this->Smileys[$Key] = '<img border="0" src="'.STATIC_SERVER.'common/smileys/'.$Val.'" alt="" />';
+		}
+		reset($this->Smileys);
+	} */
+
 ?>
