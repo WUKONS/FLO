@@ -69,8 +69,8 @@ function format_shout($text, $strip_html = true) {
     // Maintain spacing
     $s = str_replace("  ", " &nbsp;", $s);
  
-        // Smileys
- 	    $s = str_replace(":angry:",           "<img border='0' src='./static/common/smileys/angry.gif' alt='' />", $s);
+                // Smileys
+ 	        $s = str_replace(":angry:",           "<img border='0' src='./static/common/smileys/angry.gif' alt='' />", $s);
 		$s = str_replace(":-D",               "<img border='0' src='./static/common/smileys/biggrin.gif' alt='' />", $s);
 		$s = str_replace(":D",                "<img border='0' src='./static/common/smileys/biggrin.gif' alt='' />", $s);
 		$s = str_replace(":|",                "<img border='0' src='./static/common/smileys/blank.gif' alt='' />", $s);
