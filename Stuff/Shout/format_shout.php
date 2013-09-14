@@ -49,7 +49,9 @@ function format_shout($text, $strip_html = true) {
     $s = preg_replace(
         "/\[url=(www\.[^<>\s]+?)\]((\s|.)+?)\[\/url\]/i",
         "<a href='http://\\1' target='_blank'>\\2</a>", $s);
-
+        
+     // URL
+    $s = preg_replace('@(https?://([-\w\.]+[-\w])+(:\d+)?(/([\w/_\.#-]*(\?\S+)?[^\.\s])?)?)@', '<a href="$1" target="_blank">$1</a>', $s);
 
     // [size=4]Text[/size]
     $s = preg_replace(
